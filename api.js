@@ -19,7 +19,6 @@ var ImagesAPI = function(cb, end) {
 };
 
 var CommentsAPI = function(id, cb, end) {
-	console.log("id", id);
 	https.get({
 		path: '/3/gallery/image/'+id+'/comments',
 		host: 'api.imgur.com',
