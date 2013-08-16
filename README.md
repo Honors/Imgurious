@@ -1,12 +1,19 @@
 # imget #
 
-## Build & Run ##
+##Build & Run
+Run the Scala Build Tool with the following.
 
 ```sh
-$ cd imget
 $ ./sbt
-> container:start
-> browse
 ```
 
-If `browse` doesn't launch your browser, manually open [http://localhost:8080/](http://localhost:8080/) in your browser.
+Then, from within its interactive shell, run the following.
+
+```sh
+$ ./sbt
+> ~;container:start; container:reload /
+```
+
+##Source
+The main classes are located at `/src/main/scala/com/mattneary/imget`.
+
