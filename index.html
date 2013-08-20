@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640" />
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Imgurious by mattneary</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/mattneary/imgurious">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Imgurious</h1>
+            <h2>A Scalable imgur Proxy</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/mattneary/imgurious/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/mattneary/imgurious/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>
+<a name="imgurious" class="anchor" href="#imgurious"><span class="octicon octicon-link"></span></a>Imgurious</h1>
+
+<p>Imgurious is an imgur client for the web utilizing aggressive server-side caching for efficient, scalable use as a proxy of the site's assets.</p>
+
+<h2>
+<a name="dependencies" class="anchor" href="#dependencies"><span class="octicon octicon-link"></span></a>Dependencies</h2>
+
+<ul>
+<li>Java &gt;= 1.6</li>
+<li><a href="https://github.com/n8han/conscript">Conscript</a></li>
+<li><a href="https://github.com/n8han/giter8/">giter8</a></li>
+</ul><h2>
+<a name="build--run" class="anchor" href="#build--run"><span class="octicon octicon-link"></span></a>Build &amp; Run</h2>
+
+<p>Run the Scala Build Tool with the following.</p>
+
+<div class="highlight"><pre><span class="nv">$ </span>./sbt.sh
+</pre></div>
+
+<p>Then, from within its interactive shell, run the following.</p>
+
+<div class="highlight"><pre><span class="nv">$ </span>./sbt.sh
+&gt; ~;container:start; container:reload /
+</pre></div>
+
+<h2>
+<a name="source" class="anchor" href="#source"><span class="octicon octicon-link"></span></a>Source</h2>
+
+<p>The main classes are located at <code>/src/main/scala/com/mattneary/imget</code>.</p>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/mattneary">mattneary</a> can be found on <a href="https://github.com/mattneary/imgurious">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
