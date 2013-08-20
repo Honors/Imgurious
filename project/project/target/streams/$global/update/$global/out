@@ -1,20 +1,20 @@
-[0m[[0minfo[0m] [0mUpdating {file:/Users/mattneary/Desktop/imget/project/project/}default-3d21c0...[0m
-[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#default-3d21c0;0.1-SNAPSHOT[0m
+[0m[[0minfo[0m] [0mUpdating {file:/Users/mattneary/Desktop/Open%20Source%20Products/imgurious/project/project/}default-6822b9...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#default-6822b9;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
 [0m[[0mdebug[0m] [0m	refresh = false[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-3d21c0;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-6822b9;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-3d21c0;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-3d21c0;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-6822b9;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-6822b9;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-3d21c0;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-3d21c0;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-3d21c0;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-6822b9;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-6822b9;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-6822b9;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-3d21c0;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-3d21c0;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.3 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-6822b9;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-6822b9;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.3 [provided->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-sbt#sbt;0.12.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.12.3 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#sbt;0.12.3[0m
@@ -536,18 +536,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.3->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.3->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.3->org.scala-lang#scala-library;2.9.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-3d21c0;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-3d21c0;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-3d21c0;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-3d21c0;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-6822b9;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-6822b9;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-6822b9;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-6822b9;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-3d21c0;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-6822b9;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-3d21c0;0.1-SNAPSHOT [compile-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-3d21c0;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-3d21c0;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-3d21c0;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-3d21c0;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.3 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-6822b9;0.1-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-6822b9;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-6822b9;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-6822b9;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-6822b9;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.3 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.3->org.scala-sbt#main;0.12.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#main;0.12.3->org.scala-sbt#actions;0.12.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#actions;0.12.3->org.scala-sbt#classpath;0.12.3 [compile->default(compile)][0m
@@ -859,23 +859,23 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.3->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.3->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.3->org.scala-lang#scala-library;2.9.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-3d21c0;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-3d21c0;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-3d21c0;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-3d21c0;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-6822b9;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-6822b9;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-6822b9;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-6822b9;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-3d21c0;0.1-SNAPSHOT [runtime-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-3d21c0;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-3d21c0;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-3d21c0;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-6822b9;0.1-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-6822b9;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-6822b9;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-6822b9;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-3d21c0;0.1-SNAPSHOT [test-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-3d21c0;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-3d21c0;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-3d21c0;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-3d21c0;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-3d21c0;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-3d21c0;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.3 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-6822b9;0.1-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-6822b9;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-6822b9;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-6822b9;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-6822b9;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-6822b9;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-6822b9;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.3 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.3->org.scala-sbt#main;0.12.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#main;0.12.3->org.scala-sbt#actions;0.12.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#actions;0.12.3->org.scala-sbt#classpath;0.12.3 [compile->default(compile)][0m
@@ -1187,19 +1187,19 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.3->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.3->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.3->org.scala-lang#scala-library;2.9.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-3d21c0;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-3d21c0;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-3d21c0;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-3d21c0;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-6822b9;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-6822b9;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-6822b9;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-6822b9;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-3d21c0;0.1-SNAPSHOT [plugin][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-6822b9;0.1-SNAPSHOT [plugin][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-3d21c0;0.1-SNAPSHOT [sources][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-6822b9;0.1-SNAPSHOT [sources][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-3d21c0;0.1-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-6822b9;0.1-SNAPSHOT [docs][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-3d21c0;0.1-SNAPSHOT [pom][0m
-[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/mattneary/Desktop/imget/project/project/target/resolution-cache/default/default-3d21c0/scala_2.9.2/sbt_0.12/0.1-SNAPSHOT/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-6822b9;0.1-SNAPSHOT [pom][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/mattneary/Desktop/Open Source Products/imgurious/project/project/target/resolution-cache/default/default-6822b9/scala_2.9.2/sbt_0.12/0.1-SNAPSHOT/resolved.xml.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#sbt;0.12.3!sbt.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#main;0.12.3!main.jar[0m
@@ -1242,18 +1242,18 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#cache;0.12.3!cache.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#test-agent;0.12.3!test-agent.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-tools.testing#test-interface;0.5!test-interface.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2736ms :: artifacts dl 69ms[0m
-[0m[[0mdebug[0m] [0m	report for default#default-3d21c0;0.1-SNAPSHOT compile produced in /Users/mattneary/Desktop/imget/project/project/target/resolution-cache/reports/default-default-3d21c0-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-3d21c0;0.1-SNAPSHOT runtime produced in /Users/mattneary/Desktop/imget/project/project/target/resolution-cache/reports/default-default-3d21c0-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-3d21c0;0.1-SNAPSHOT test produced in /Users/mattneary/Desktop/imget/project/project/target/resolution-cache/reports/default-default-3d21c0-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-3d21c0;0.1-SNAPSHOT provided produced in /Users/mattneary/Desktop/imget/project/project/target/resolution-cache/reports/default-default-3d21c0-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-3d21c0;0.1-SNAPSHOT optional produced in /Users/mattneary/Desktop/imget/project/project/target/resolution-cache/reports/default-default-3d21c0-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-3d21c0;0.1-SNAPSHOT compile-internal produced in /Users/mattneary/Desktop/imget/project/project/target/resolution-cache/reports/default-default-3d21c0-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-3d21c0;0.1-SNAPSHOT runtime-internal produced in /Users/mattneary/Desktop/imget/project/project/target/resolution-cache/reports/default-default-3d21c0-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-3d21c0;0.1-SNAPSHOT test-internal produced in /Users/mattneary/Desktop/imget/project/project/target/resolution-cache/reports/default-default-3d21c0-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-3d21c0;0.1-SNAPSHOT plugin produced in /Users/mattneary/Desktop/imget/project/project/target/resolution-cache/reports/default-default-3d21c0-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-3d21c0;0.1-SNAPSHOT sources produced in /Users/mattneary/Desktop/imget/project/project/target/resolution-cache/reports/default-default-3d21c0-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-3d21c0;0.1-SNAPSHOT docs produced in /Users/mattneary/Desktop/imget/project/project/target/resolution-cache/reports/default-default-3d21c0-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-3d21c0;0.1-SNAPSHOT pom produced in /Users/mattneary/Desktop/imget/project/project/target/resolution-cache/reports/default-default-3d21c0-pom.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (2736ms resolve - 69ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2550ms :: artifacts dl 66ms[0m
+[0m[[0mdebug[0m] [0m	report for default#default-6822b9;0.1-SNAPSHOT compile produced in /Users/mattneary/Desktop/Open Source Products/imgurious/project/project/target/resolution-cache/reports/default-default-6822b9-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-6822b9;0.1-SNAPSHOT runtime produced in /Users/mattneary/Desktop/Open Source Products/imgurious/project/project/target/resolution-cache/reports/default-default-6822b9-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-6822b9;0.1-SNAPSHOT test produced in /Users/mattneary/Desktop/Open Source Products/imgurious/project/project/target/resolution-cache/reports/default-default-6822b9-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-6822b9;0.1-SNAPSHOT provided produced in /Users/mattneary/Desktop/Open Source Products/imgurious/project/project/target/resolution-cache/reports/default-default-6822b9-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-6822b9;0.1-SNAPSHOT optional produced in /Users/mattneary/Desktop/Open Source Products/imgurious/project/project/target/resolution-cache/reports/default-default-6822b9-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-6822b9;0.1-SNAPSHOT compile-internal produced in /Users/mattneary/Desktop/Open Source Products/imgurious/project/project/target/resolution-cache/reports/default-default-6822b9-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-6822b9;0.1-SNAPSHOT runtime-internal produced in /Users/mattneary/Desktop/Open Source Products/imgurious/project/project/target/resolution-cache/reports/default-default-6822b9-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-6822b9;0.1-SNAPSHOT test-internal produced in /Users/mattneary/Desktop/Open Source Products/imgurious/project/project/target/resolution-cache/reports/default-default-6822b9-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-6822b9;0.1-SNAPSHOT plugin produced in /Users/mattneary/Desktop/Open Source Products/imgurious/project/project/target/resolution-cache/reports/default-default-6822b9-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-6822b9;0.1-SNAPSHOT sources produced in /Users/mattneary/Desktop/Open Source Products/imgurious/project/project/target/resolution-cache/reports/default-default-6822b9-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-6822b9;0.1-SNAPSHOT docs produced in /Users/mattneary/Desktop/Open Source Products/imgurious/project/project/target/resolution-cache/reports/default-default-6822b9-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-6822b9;0.1-SNAPSHOT pom produced in /Users/mattneary/Desktop/Open Source Products/imgurious/project/project/target/resolution-cache/reports/default-default-6822b9-pom.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (2550ms resolve - 66ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

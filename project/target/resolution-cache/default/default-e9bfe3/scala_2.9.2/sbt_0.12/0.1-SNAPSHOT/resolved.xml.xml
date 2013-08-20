@@ -4,7 +4,7 @@
 		module="default-e9bfe3"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20130815203503"
+		publication="20130819215855"
 		e:scalaVersion="2.9.2" e:sbtVersion="0.12"
 	>
 		<description>
@@ -34,6 +34,7 @@
 	<dependencies>
 		<dependency org="org.scala-sbt" name="sbt" rev="0.12.3" conf="provided->default(compile)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.9.2" conf="provided->default(compile)"/>
+		<dependency org="com.github.siasia" name="xsbt-web-plugin_2.9.2" rev="0.12.0-0.2.11.1" conf="compile->default(compile)"/>
 		<dependency org="com.mojolly.scalate" name="xsbt-scalate-generator" rev="0.4.2" conf="compile->default(compile)" e:scalaVersion="2.9.2" e:sbtVersion="0.12"/>
 		<dependency org="org.scalatra.sbt" name="scalatra-sbt" rev="0.3.0" conf="compile->default(compile)" e:scalaVersion="2.9.2" e:sbtVersion="0.12"/>
 		<exclude org="org.scala-lang" module="scala-library" artifact="*" type="jar" ext="*" matcher="exact"/>

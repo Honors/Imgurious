@@ -15,7 +15,7 @@ $ ./sbt.sh
 Then, from within its interactive shell, run the following.
 
 ```sh
-$ ./sbt
+$ ./sbt.sh
 > ~;container:start; container:reload /
 ```
 
