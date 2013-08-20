@@ -35,34 +35,39 @@ class ImgetServlet extends ImgetStack {
     org.scalatra.util.io.copy(new FileInputStream(file), response.getOutputStream)
   }
   def renderJSON(file: String) {
+    // TODO: external template
     val json = parse(io.Source.fromFile(file).mkString)    
     val rendered = (json \\ "link").children.map({ id =>
       for {
         JField("link", JString(link)) <- id
       } yield link
+      // TODO: early caching
     }).foldLeft("") { (a,b) => 
-      a + "<br>" + """<img src="/images/""" + b(0).split("""com\/""")(1) + """" />"""
+      a + """<div class="item"><img src="/images/""" + b(0).split("""com\/""")(1) + """" /></div>"""
     }
     response.getOutputStream.print(rendered)
     response.getOutputStream.close()
   }
 
   get("/") {
+    redirect("/g/hot/viral")
+  }
+  get("/g/*") {
+    val rest = multiParams("splat")
     contentType="text/html"
-    if( !(new File(dest + "hot-viral.json")).exists ) {
-      download("https://api.imgur.com/3/gallery/hot/viral/0.json", dest + "hot-viral.json")
+    val filter = rest.mkString("/")
+    val name = filter.replace("/", "-")    
+    
+    if( !(new File(dest + name + ".json")).exists ) {
+      download("https://api.imgur.com/3/gallery/" + filter + "/0.json", dest + name + ".json")
       "Loading..."
     } else {
       val in = new FileInputStream((new File(dest + "../styles.css")))
       val out = response.getOutputStream()
-      out.write("<style>".getBytes)
-      Iterator 
-      .continually(in.read)
-      .takeWhile(-1 !=)
-      .foreach(out.write)
-      out.write("</style>".getBytes)
-      renderJSON(dest + "hot-viral.json")
-    } 
+      out.write("""<link rel="stylesheet" href="/asset/styles.css">""".getBytes)
+      out.write("""<img src="/asset/logo.png" class="hero">""".getBytes)
+      renderJSON(dest + name + ".json")
+    }
   }
   get("/images/*") {
     val rest = multiParams("splat")
@@ -78,5 +83,9 @@ class ImgetServlet extends ImgetStack {
       renderPage(dest + file)
     }    
   }
-  
+  get("/asset/*") {
+    val rest = multiParams("splat")
+    val file = rest.mkString("/")
+    renderPage(dest + "../" + file)
+  }
 }
